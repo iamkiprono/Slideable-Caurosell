@@ -56,7 +56,7 @@ ul li {
   display: inline-block;
   padding: 0 20px;
 }
-#home{
+#home {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -92,8 +92,37 @@ ul li {
   /* justify-content: center; */
   /* width: 100%; */
 }
-#contact h1{
+#contact h1 {
   color: black;
+}
+
+.say {
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.parag {
+  padding: 0 65px;
+  text-align: center;
+}
+.parag p {
+  color: #fff;
+}
+.buttons{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button{
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.call{
+  background: rgb(154, 231, 154);
 }
 
 @media (max-width: 800px) {
@@ -143,5 +172,8 @@ ul li {
   #home img {
     width: 100%;
     height: 100%;
+  }
+  .parag {
+    padding: 0 20px;
   }
 }
